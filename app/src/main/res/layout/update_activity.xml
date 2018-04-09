@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sakshi.dont_panic1.UpdateInfo">
+
+    <ListView
+        android:id="@+id/messageListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bedsinfo"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="113dp"
+        android:layout_marginStart="14dp"
+        android:divider="@android:color/transparent"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        tools:listitem="@layout/item_message" />
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/sendButton"
+        android:layout_below="@+id/relative"
+        android:layout_marginEnd="37dp"
+        android:layout_marginTop="17dp" />
+
+    <EditText
+        android:id="@+id/messageBlood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/sendButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="46dp"
+        android:layout_weight="1"
+        android:hint="Enter Blood donations" />
+
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom"
+        android:layout_marginEnd="14dp"
+        android:enabled="false"
+        android:text="Send" />
+
+    <EditText
+        android:id="@+id/bedsinfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter name of beds free"
+        android:layout_above="@+id/messageBlood"
+        android:layout_alignStart="@+id/messageBlood"
+        android:layout_gravity="center"
+        android:layout_marginBottom="14dp" />
+
+
+</RelativeLayout>

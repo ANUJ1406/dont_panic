@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorPrimaryLight">#BBDEFB</color>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="darkblue" type="color">#FF0099CC</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <color name="colorAccent">#CDDC39</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorIcon">#FFFFFF</color>
+    <color name="colorDivider">#BDBDBD</color>
+
+    <color name="item_progress">#75465a65</color>
+    <color name="item_back">#465A65</color>
+    <color name="textPrimary">#f5f5f5</color>
+    <color name="textPrimaryDark">#95aab4</color>
+    <color name="errorText">#ff7878</color>
+</resources>

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "773070695847",
+    "firebase_url": "https://gpslocation-1519567817653.firebaseio.com",
+    "project_id": "gpslocation-1519567817653",
+    "storage_bucket": "gpslocation-1519567817653.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773070695847:android:b98e2c4b621c6051",
+        "android_client_info": {
+          "package_name": "com.example.sakshi.dont_panic1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773070695847-6eiomh8la0ii7o3ubls0nqepjmokfaml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sakshi.dont_panic1",
+            "certificate_hash": "49d2391f492c8d8d019f3316a074f2ced4a896f5"
+          }
+        },
+        {
+          "client_id": "773070695847-k2cm9s37q0qd03hhm30dkirqig42hve4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sakshi.dont_panic1",
+            "certificate_hash": "570e989fbcf6059bd488bd7dff6f0f57aca3157a"
+          }
+        },
+        {
+          "client_id": "773070695847-4bfuebe2nqmq546536ope86jqslgrj72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwS5YCAm91o2RwWy8dW55NTZUsa_D1Srk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773070695847-4bfuebe2nqmq546536ope86jqslgrj72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
